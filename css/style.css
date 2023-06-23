@@ -244,3 +244,39 @@
       page-break-after: avoid;
     }
   }
+
+/* Custom Styles */
+header.main {
+  display: block;
+  background-color: AliceBlue;
+}
+
+header.main section {
+  padding: 3rem;
+}
+
+header.main img {
+  max-width: 100%;
+}
+
+main {
+  background-color: FloralWhite;
+  padding: 2rem;
+}
+
+main section {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+footer.main {
+  background-color: lightgrey;
+  padding: .5rem 2rem;
+}
+
+@media (min-width: 768px) {
+  header.main {
+    display: flex;
+    justify-content: center;
+  }
+}
