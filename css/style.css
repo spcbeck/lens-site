@@ -285,3 +285,7 @@ footer.main {
     justify-content: center;
   }
 }
+
+.image-container {
+  text-align: center;
+}
